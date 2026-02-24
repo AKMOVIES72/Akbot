@@ -1,4 +1,4 @@
-import re
+⁶import re
 from os import environ,getenv
 from Script import script 
 
@@ -55,7 +55,7 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Verify
-VERIFY = bool(environ.get('VERIFY', True)) # Verification On ( True ) / Off ( False )
+VERIFY = bool(environ.get('VERIFY', False)) # Verification On ( True ) / Off ( False )
 HOWTOVERIFY = environ.get('HOWTOVERIFY', 'https://t.me/AKMOVIESSTELUGU') # How to open tutorial link for verification
 
 # Others
